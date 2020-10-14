@@ -1,4 +1,4 @@
-import { URLSlug, hasPrefix, initials, monthName, twoDigitsNum, withTwoDecimals } from '../index'
+import { URLSlug, hasPrefix, initials, monthName, twoDigitsNum, withTwoDecimals, removeDuplicates } from '../index'
 
 describe('URLSlug', () => {
   
@@ -21,5 +21,9 @@ describe('withTwoDecimals', () => {
 })
 
 describe('twoDigitsNum', () => {
+
+})
+
+describe('removeDuplicates', () => {
 
 })

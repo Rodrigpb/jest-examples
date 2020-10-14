@@ -37,3 +37,5 @@ export const hasPrefix = (str, prefix) => str.startsWith(prefix)
 export const withTwoDecimals = (num) => Math.round(100 * num) / 100
 
 export const twoDigitsNum = num => `0${num}`.substr(-2)
+
+export const removeDuplicates = arr => arr.filter((item, i) => arr.indexOf(item) === i)
